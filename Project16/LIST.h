@@ -13,7 +13,7 @@ class forwardList
 	Node* head;
 	Node* body;
 public:
-	forwardList() : head(nullptr), tail(nullptr) {}
+	forwardList() : head(nullptr), body(nullptr) {}
 	void PushBack(int value);
 	void Print();
 	void PopFront();
